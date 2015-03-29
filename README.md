@@ -5,12 +5,15 @@ For simplify access to sql server & usings
 MIT licence
 
 ## features
-* create connection & open in one line
-* create command from connection & add params in same line
-* setup app role
-* setup deadlock priority
+* [create connection & open in one line](#create-connection)
+* [create command from connection & add params in same line](#create-command)
+* [add params in one string](#add-params-to-command)
+* [add out params in one string](#add-out-param-to-command)
+* [simple mapping](#create-command-to-execute-sproc-with-simple-mapping)
+* [setup app role](#use-approle-context)
+* [setup deadlock priority](#set-deadlock-priority)
 
-## samples
+## Samples
 
 ### create connection
 
@@ -65,8 +68,9 @@ MIT licence
             Console.WriteLine(@"SPID: {0}, Login: {1}", row.ID, row.Description);
         }
     }
+```
 
-### add param to command
+### add params to command
 
 ```c#
     using(var con = new SqlConnection(connString).OpenIt())
@@ -95,7 +99,7 @@ MIT licence
 ```
 
 ### add data table as param with mapping for simple result
-do not use that map way in production
+_do not use that map way in production_
 
 ```c#
     using(var con = new SqlConnection(connString).OpenIt())
