@@ -1,0 +1,39 @@
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.vspscc
+.builds
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.sln.ide
+
+# ReSharper is a .NET coding add-in
+_ReSharper*
+
+RS.Radar.sln.DotSettings.user
+*.bak
+*.orig
+*.user
+*.suo
