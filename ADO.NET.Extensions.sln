@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.NET.Extensions", "ADO.NET.Extensions.csproj", "{53E6B561-679E-4363-8B26-45A1BEEE0D1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO.NET.Extensions", "ADO.NET.Extensions\ADO.NET.Extensions.csproj", "{53E6B561-679E-4363-8B26-45A1BEEE0D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples", "Samples\Samples.csproj", "{6F62AFD9-16D7-4395-BD55-92E7795D8082}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{53E6B561-679E-4363-8B26-45A1BEEE0D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E6B561-679E-4363-8B26-45A1BEEE0D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E6B561-679E-4363-8B26-45A1BEEE0D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F62AFD9-16D7-4395-BD55-92E7795D8082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F62AFD9-16D7-4395-BD55-92E7795D8082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F62AFD9-16D7-4395-BD55-92E7795D8082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F62AFD9-16D7-4395-BD55-92E7795D8082}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
